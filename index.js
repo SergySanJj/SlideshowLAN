@@ -11,7 +11,7 @@ const app = express()
 let folder = require('./constants').folder
 console.log("Reading media from ", folder)
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || require('./constants').port;
 let FilePath = "./app/index.html"
 var htmlString = fs.readFileSync(FilePath);
 var parsedHTML = new jsdom.JSDOM(htmlString)
