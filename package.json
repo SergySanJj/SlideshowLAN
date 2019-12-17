@@ -1,0 +1,19 @@
+{
+  "name": "image-viewer",
+  "version": "1.0.0",
+  "description": "local filesystem image viewer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Sergei Yarema",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "jsdom": "^15.2.1",
+    "nodemon": "^2.0.2",
+    "string_decoder": "^1.3.0"
+  }
+}

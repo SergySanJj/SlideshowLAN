@@ -1,0 +1,1 @@
+module.exports.folder = '/some/folder/path'
